@@ -1,0 +1,384 @@
+body {
+	font-size: 12px;
+	font-family:Arial,微软雅黑,宋体;
+	margin:0px 8px;
+	margin-right:0px;
+	-webkit-text-size-adjust:none;
+}
+#table .button { font-size:14px; }
+optgroup , select , option, input{ font: 12px Arial;}
+dl,dt,dd,ul,li {padding:0px;margin:0px;}
+
+optgroup {
+	font-style:normal;
+	font-weight:bold;
+}
+form {
+	margin:0px;
+	padding:0px;
+}
+
+a {
+	cursor: pointer;
+	outline:none; 
+	color:#385063;
+	blr:expression(this.onFocus=this.blur()); /*chrome*/
+	text-decoration: none;
+}
+h1 {
+	font-size:16px;
+	padding:6px 10px;
+	width:300px;
+	border-radius: 5px;
+	background:#fff;
+	color:#627279;
+	border:1px solid #E7E7E7;
+	margin:0px 0px 10px 0px;
+	background: url("leftbj02.gif") repeat-x left top #fff;
+	text-shadow: #fff 1px 1px 0;
+}
+
+.c {
+	clear:both;
+	height:0px;
+	font-size:0px;
+	overflow:hidden;
+}
+._c:after {
+    content: ".";
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+._c{
+    *zoom:1;
+}
+
+/******************* NEW ************************/
+
+#left {
+	background: url("leftbj.gif") repeat top right;
+	height: 100%; overflow: auto;
+}
+/* 左栏下拉选项 */
+#left_navigation {
+	background:#FDFDFD;
+	left:0;
+    top:0;
+    width:180px;
+	font-size:12px;
+	margin-top:-2px;
+	display:none;
+	padding:2px;
+	text-shadow: #fff 1px 1px 0;
+}
+#left_navigation div{
+	background: url("leftbj01.gif") repeat bottom left;
+	border-radius:0px 0px 4px 4px;
+	margin-top:7px;
+}
+#left_navigation a{
+	margin:0px;
+	padding:2px 0px 0px 5px;
+	height:28px;
+	border-bottom:1px solid #FDFDFD;
+	color: #6588A5;
+	display:block;
+	text-decoration:none;
+}
+#left_navigation a:hover {
+	background: url("leftbj02.gif") repeat top left;
+}
+#left_navigation a:hover b{
+	color:#53748E;
+}
+#left_navigation a:hover i{
+	filter:alpha(opacity=100);
+	opacity: 1;
+}
+#left_navigation a i {
+	filter:alpha(opacity=90);
+	opacity: 0.9;
+}
+#left_navigation a i, #left_navigation a b{
+	width:25px;
+	height:25px;
+	display:inline-block;
+	float:left;
+}
+#left_navigation a b {
+	width:auto;
+	margin:5px 0px 0px 8px;
+	font-weight:normal;
+}
+.NewTag i{
+	background:url(ico.gif) no-repeat -2294px -8px;
+}
+.RecoveryTag i{
+	background:url(ico.gif) no-repeat -1406px -8px;
+}
+.SetTemplet i{
+	background:url(ico.gif) no-repeat -302px -8px;
+}
+.SetAmysql i{
+	background:url(ico.gif) no-repeat -1910px -8px;
+}
+.SetAmysqlWeb i{
+	background:url(ico.gif) no-repeat -373px -8px;
+}
+.PlugAmysql i{
+	background:url(ico.gif) no-repeat -2898px -8px;
+}
+.AmysqlAllShow i{
+	background:url(ico.gif) no-repeat -1237px -8px;
+}
+
+/* 左栏列表 */
+#left_logo {
+	background: url("ico.gif") no-repeat scroll -5px -63px transparent;
+	width: 150px;
+	height:25px;
+	margin-bottom:-6px;
+	top:7px;
+	margin-top:20px;
+}
+tr,td {
+	border-collapse:collapse
+}
+#AmysqlLeftList {
+	margin-top:20px;
+}
+#AmysqlLeftList ul{
+	list-style: none;
+	margin-left:14px;
+}
+#AmysqlLeftList .openlist {
+	background: url("ico.gif") no-repeat scroll -152px -44px transparent;
+	height:12px;
+	cursor: pointer;
+}
+
+#AmysqlLeftList .closelist {
+	background: url("ico.gif") no-repeat scroll -128px -44px transparent;
+	height:12px;
+	cursor: pointer;
+}
+
+#AmysqlLeftList dl {
+	height:20px;
+}
+#AmysqlLeftList dd, #AmysqlLeftList dt {
+	display:inline-block;
+	float:left;
+	padding-top:2px;
+	cursor: pointer;
+}
+#AmysqlLeftList dd {
+	width: 13px;
+}
+#AmysqlLeftList dt i, #AmysqlLeftList dt a{
+	float:left;
+	display: inline-block;
+	margin-right:2px;
+}
+#AmysqlLeftList dt a:hover{
+	text-shadow: #EFEFEF 1px 1px 0;
+}
+
+/* 标签 TAG ************************/
+#navigation_body {
+	background:#fff;
+	margin:0px;
+	padding:0px;
+	font: 11px Arial;
+	width:100%;
+}
+#navigation {
+	width:100%;
+}
+#ShowBlock {
+	overflow: hidden;
+    position: relative;
+	width:1000px;
+}
+#TabList {
+	width:1000000px;
+	margin-left:0px;
+}
+#ShowBlock, #TabList, .TabItem {
+	float:left;
+}
+#navigation span, .TabItem {
+	display:block;
+	height:31px;
+}
+#navigation span font, #navigation span i {
+	display:block;
+	font: 11px Arial;
+	cursor: pointer;
+	float:left;
+}
+#navigation .text {
+	padding:9px 10px 11px 10px;
+	margin-left:5px;
+}
+
+.Normal{background:url(tag.gif) repeat 0px -34px;width:auto;float:left;}
+.Split{background:url(tag.gif) repeat 0px -170px;width:3px;float:left;}
+
+.Hover{background:url(tag.gif) repeat 0px -306px;width:auto;float:left;text-shadow: #EFEFEF 1px 1px 0;}
+
+.ActivateLeft{background:url(tag.gif) repeat 0px -204px;width:10px;float:left;}
+.ActivateCenter{background:url(tag.gif) repeat 0px -272px;width:auto;float:left;}
+.ActivateRight{background:url(tag.gif) repeat 0px -340px;width:12px;float:left;}
+
+#navigation .new{width:24px;float:left;cursor: pointer;margin-right:3px;}
+#navigation #New{background:url(tag.gif) repeat 1px -238px}
+#navigation #NewUp{background:url(tag.gif) repeat 1px -406px}
+#navigation #NewHover{background:url(tag.gif) repeat 1px -678px}
+
+#navigation .min {width:18px;float:right;cursor: pointer;margin-right:3px;background:url(tag.gif) repeat}
+#navigation #Show{background-position: 0px 0px;}
+#navigation #ShowHover{background-position:0px -640px;}
+#navigation #Close{background-position:0px -102px;}
+#navigation #CloseHover{background-position:0px -572px;}
+#navigation #CloseLock{background-position:0px -472px;}
+#navigation #Previous{background-position:0px -68px;}
+#navigation #PreviousHover{background-position:0px -538px;}
+#navigation #PreviousLock{background-position:0px -438px;}
+#navigation #Next{background-position:0px -136px;}
+#navigation #NextHover{background-position: 0px -606px;}
+#navigation #NextLock{background-position:0px -506px;}
+
+
+#navigation .ItemClose{background:url(tag.gif) repeat 0px -391px;width:14px;height:15px;margin:9px 3px 10px 8px}
+#navigation .ItemCloseNow{background:url(tag.gif) repeat 0px -374px;width:14px;height:15px;margin:9px 3px 10px 8px}
+
+
+/* 内容 ************************/
+#contant {
+	margin:0px;
+	margin-left:2px;
+	background:#fff;
+	padding:0px;
+	width:100%;
+}
+
+#body {
+	font: 11px Arial;
+	margin-top:5px;
+	/*position: relative;*/
+	background: url("body.gif") repeat-x left top;
+}
+#LoadingBlock {
+	padding:10px 30px;
+}
+#loading {
+	width:500px;
+	height:200px;
+	background:url(../../images/loading.gif) no-repeat left top
+}
+
+.input{
+	width: 370px;
+	padding: 5px;
+	margin: 0px;
+	height:18px;
+	background: white url(bg-textbox.gif) top center repeat-x;
+	color: #555;
+	border: 1px solid #CCC;
+	outline: 0;
+	font-size:14px;
+	font-family:Arial,宋体;
+}
+
+/* ico **********/
+
+.ico_database {
+	background: url("ico.gif") no-repeat scroll -18px -43px transparent;
+	height: 18px;
+	width: 17px;
+}
+.ico_tabel {
+	background: url("ico.gif") no-repeat scroll -68px -43px transparent;
+	height: 18px;
+	width: 17px;
+}
+.ico2 {
+	line-height: 9000px;
+	width:16px;
+	margin-left:10px;
+	height:16px;
+	display:inline-block;
+	vertical-align:middle;
+	overflow:hidden;
+}
+.ico_del2 {
+	background:url(all.gif) repeat 0px -263px;
+}
+.ico_edit2 {
+	background:url(all.gif) repeat -321px -29px;
+}
+.ico_PrimeKey2 {
+	background:url(all.gif) repeat -182px -160px;
+}
+.ico_only2 {
+	background:url(all.gif) repeat -92px -472px;
+}
+.ico_index2 {
+	background:url(all.gif) repeat -231px -368px;
+}
+.ico_DESC {
+	background:url(all.gif) repeat -112px -335px;
+}
+.ico_ASC {
+	background:url(all.gif) repeat -158px -335px;
+}
+
+.ico_browse {
+	background:url(all.gif) repeat -249px -442px;
+}
+.ico_edit {
+	background:url(all.gif) repeat -343px -25px;
+}
+.ico_del {
+	background:url(all.gif) repeat -20px -260px;
+
+}
+.ico_PrimeKey {
+	background:url(all.gif) repeat -203px -156px;
+}
+.ico_only {
+	background:url(all.gif) repeat -112px -468px;
+}
+.ico_index {
+	background:url(all.gif) repeat -251px -363px;
+}
+.ico_AddLint {
+	background:url(all.gif) repeat -387px -437px;
+}
+
+.ico_select {
+	margin-left:10px;
+	height:16px;
+	background:url(all.gif) repeat -207px -286px;
+}
+
+.ico_sqlsuccess {
+	background:url(all.gif) repeat -65px -261px;
+	margin:0px 5px;
+}
+.ico_sqlError {
+	background:url(all.gif) repeat -430px -104px;
+	margin:0px 5px;
+}
+
+.ico_copyright {
+	background:url(all.gif) repeat -182px -133px;
+	bottom: 5px;
+	left: 1px;
+	width:42px;
+	position: absolute;
+	height:20px;
+}

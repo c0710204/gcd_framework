@@ -1,0 +1,64 @@
+body {
+	width:96%;
+}
+#AmysqlTagList {
+	padding:3px 10px;
+	width:95%;
+	font-family: Arial,微软雅黑,宋体;
+	color:#717171;
+}
+
+#AmysqlTagList .item {
+	width:95%;
+	height:30px;
+	display:block;
+	text-shadow: #fff 1px 1px 0;
+}
+#AmysqlTagList  a.item_list {
+	padding:6px 8px;
+	width:90%;
+	display:block;
+	font-size:12px;
+	color:#4F4F4F;
+	text-decoration: none;
+	float:left;
+	border-radius: 5px;
+}
+#AmysqlTagList a.item_list:hover {
+	background:#FCFCFC;
+	border-radius: 5px;
+}
+
+#AmysqlTagList a i{
+	display:block;
+	float:left;
+}
+#AmysqlTagList a i em{
+	color:#828282;
+}
+
+#AmysqlTagList a span{
+	font-size:12px;
+	margin-right:12px;
+	display:block;
+	float:right;
+}
+
+
+#AmysqlTagList .close a {
+	display:block;
+	float:right;
+	font-size:10px;
+	height:20px;
+	padding:1px 5px;
+	cursor: pointer;
+	width:1%;
+	margin-top:5px;
+}
+
+#AmysqlTagList .SumDiv {
+	border-top:1px solid #c3c7d3;
+	padding:10px;
+	margin:10px;
+	width:92%;
+}

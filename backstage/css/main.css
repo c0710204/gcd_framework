@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+#head{
+	
+}
+#menu{
+	float: left;
+
+	width: 180px;
+
+}
+#page_out{
+	margin-left:10px;
+	float:left;
+	width:1000px;
+min-height: 400px;
+}
+.BTNdel
+{
+	width:100px;
+
+}

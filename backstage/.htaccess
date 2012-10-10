@@ -1,0 +1,4 @@
+AuthName "===BISTU LOGIN==="
+AuthType Basic
+AuthUserFile /home/www/default/.htpasswd
+Require valid-user username
