@@ -1,8 +1,8 @@
 <?php
 	$start=time();
-define("__CFG_document_place__",'/framework' );
+define("__CFG_document_place__",'/project-mother' );
 	include $_SERVER['DOCUMENT_ROOT'].__CFG_document_place__.'/settings/setting.php';
-	include $_SERVER['DOCUMENT_ROOT'].__CFG_document_place__.'/includes/database/sql.php';
+	include $_SERVER['DOCUMENT_ROOT'].__CFG_document_place__.'/core/database/sql.php';
 	$GET=$_GET;
 	$POST=$_POST;
 	$TABLE=$GET['table'];
@@ -15,7 +15,7 @@ define("__CFG_document_place__",'/framework' );
 //	$sql1->debug=true;
 	$ACTION=$GET['action'];
 	//��¼��־
-		include_once $_SERVER['DOCUMENT_ROOT'].__CFG_document_place__.'/includes/log/logger.php';
+		include_once $_SERVER['DOCUMENT_ROOT'].__CFG_document_place__.'/core/log/logger.php';
 		include $_SERVER['DOCUMENT_ROOT'].__CFG_document_place__.'/settings/files.php';
 		$l=new logger($_SERVER['DOCUMENT_ROOT'].__CFG_document_place__.$cfg['file']['log']['apilog']);
 		

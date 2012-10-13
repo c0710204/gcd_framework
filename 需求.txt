@@ -1,0 +1,38 @@
+关于DAM
+	http://dam.itpcas.ac.cn/chs/abt/
+	静态
+新闻动态
+	http://dam.itpcas.ac.cn/chs/ne/
+	moduleid*2
+	文章
+		标题
+		日期
+		内容
+	编辑/提交/修改
+研究队伍
+	http://dam.itpcas.ac.cn/chs/ppl/
+	typeid*5
+	首页显示图片
+	人员
+		姓名
+		职位()
+		地址
+		电话
+		传真
+		邮箱
+		简历
+		照片
+		研究方向
+		论著(json)
+研究焦点
+	http://dam.itpcas.ac.cn/chs/rch/
+	静态
+资源共享
+	http://dam.itpcas.ac.cn/chs/rs/
+	静态+动态列表
+	moduleid*3
+发表论著
+	http://dam.itpcas.ac.cn/chs/pb/
+	动态分类
+	动态文章列表(同论著)
+

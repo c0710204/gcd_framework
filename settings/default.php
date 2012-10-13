@@ -2,9 +2,9 @@
 
 
 $cfg["database_host"]="127.0.0.1";
-$cfg["database_user"]="mobile";
-$cfg["database_pass"]="bistu!@#2012";
-$cfg["database_dbname"]="ibistu";
+$cfg["database_user"]="gcdweb";
+$cfg["database_pass"]="gcdweb";
+$cfg["database_dbname"]="gcd";
 $cfg['database_port']="3306";
 $cfg['moduleIdList']=array();
 $cfg['year']='2012';

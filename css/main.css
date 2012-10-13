@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+#head .hleft{
+	float: left;
+}
+#head span.hright{
+	margin:5px;
+	color: white;
+}
+#head a.hleft{
+	margin:5px;
+	color: white;
+}
+#head .hright{
+	float: right;
+}
+#head a.button{
+	margin: 4px;
+	margin-right:30px;
+	border-color:  white;
+	border-style: double;
+	font-size: 15px;
+	background-color: white;
+}
+#head img.button{
+	margin: 5px;
+	border-color:  white;
+	width:15px;
+	height:15px;
+	border-style: double;
+	
+}
+#head img.logo{
+	margin: -5px;
+	
+}
+#head{
+	
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-image: url("/img/nav_bg_n.png");
+	background-repeat: repeat-x;
+}
+
+#headfix{
+	height: 20px;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+#left,#content{
+	float:left;
+}
+#right{
+	float: right;
+	width:200px;
+}
+#main #story{
+	width:800px;
+	float:left;
+}
+#foot{
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+。listcell .user *{
+	float: left;
+}
+。listcell .tools *{
+	float: left;
+}
+#list{
+	list-style: none;
+}
+.listcell {
+	margin: 4px;
+	width:500px;
+	border-color:  black;
+	border-style: double;
+	font-size: 15px;
+	background-color: white;
+}
+.listcell .tools .button{
+	
+	margin: 4px;
+	width:10px;
+	height:10px;
+	border-color:  black;
+	border-style: double;
+	font-size: 15px;
+	background-color: white;	
+}
