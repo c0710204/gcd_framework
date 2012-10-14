@@ -7,14 +7,14 @@
 		<div class="block untagged" id='qiushi_tag_$id'>
 
 			<div class="detail">
-				<a href="/article/$id" target="_blank"></a>
+				<a href="/talk/main?id=$id&token=$token" target="_blank"></a>
 			</div>
 
 			<div class="author">
 				<!-- <img
 				src="http://img.qiushibaike.com/system/avtnew/260/2601171/thumb/20120718095719.gif"
 				alt="aoBai" /> -->
-				<a href="/users/$upuid">$name</a>
+				<a >$name</a>
 			</div>
 
 			<div class="content" title="$time">$story</div>
@@ -30,10 +30,10 @@
 						href="javascript:vote($id,1)" id="1-$id">$like</a></li>
 					<li id="vote-dn-$id" class="down"><a
 						href="javascript:vote($id,2)" id="2-$id">-$unlike</a></li>
-					<li class="comment"><a
-						href="/article/$id#qiushi_comments_$id" id="c-$id"
+					<!--  <li class="comment"><a
+						href="/article/$id#talk_$talkcount" id="c-$id"
 						class="qiushi_comments">$talkcount</a></li>
-					<!-- 	<li class="share"><a href="#">分享</a></li>-->
+						<li class="share"><a href="#">分享</a></li>-->
 				</ul>
 
 				<div class="sharebox">

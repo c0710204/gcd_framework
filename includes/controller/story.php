@@ -1,26 +1,18 @@
 <?php
 class story extends controller {
 	// public $default_function='main';
+	
 	function main() {
-		if (isset ( $_GET ['token'] )) {
-			$userdata = $this->loadmodel ( 'user' )->loaddata ( 'getuserdata', array (
-					'token' => $_GET ['token'] 
-			) )->getall ();
-			$userdata = $userdata [0];
-			$userdata['hidden']='';
-		} else
-			$userdata = array (
-					'name' => '游客',
-					'id' => '-1',
-					'hidden' => 'hidden',
-					'token'=>'-1');
-		
+		$userdata = $this->userwork ();
 		$storys = $this->loadmodel ( 'story' );
 		$talk = $this->loadmodel ( 'talk' );
 		$this->echo = false;
+		$storyary = $storys->loaddata ( "limit50sortbytimedesc" )->getall ();
 		
+		foreach ( $storyary as $key => $row )
+			$storyary [$key] ['token'] = $userdata ['token'];
 		$storyshtml = $this->loadloopview ( "row/rowhome.html", array (
-				'storys' => $storys->loaddata ( "limit50sortbytimedesc" )->getall () 
+				'storys' => $storyary 
 		) );
 		$headhtml = $this->loadview ( 'head.html', $userdata );
 		$foothtml = $this->loadview ( 'foot.html' );
@@ -34,15 +26,9 @@ class story extends controller {
 		// $this->loadview("head.html");
 	}
 	function add() {
-		$this->echo = false;
-		if (isset ( $_GET ['token'] ))
-			$token = $_GET ['token'];
-		else
-			$token = 'anonymous';
-		$storyaddhtml = $this->loadview ( 'storyadd.html', array (
-				'token' => $token 
-		) );
-		$headhtml = $this->loadview ( 'head.html' );
+		$userdata = $this->userwork ();
+		$storyaddhtml = $this->loadview ( 'storyadd.html', $userdata );
+		$headhtml = $this->loadview ( 'head.html', $userdata );
 		$foothtml = $this->loadview ( 'foot.html' );
 		$this->echo = true;
 		$this->loadview ( 'home.html', array (
@@ -52,22 +38,22 @@ class story extends controller {
 		) );
 	}
 	function added() {
-		$token = $_GET ['token'];
+		$userdata = $this->userwork ();
+		try{
 		$storytext = $_GET ['storytext'];
 		$user = $this->loadmodel ( 'user' );
-		$idres = $user->loaddata ( 'getuserid', array (
-				'token' => $token 
-		) )->getall ();
-		$id = $idres [0] ['id'];
+		$idres = $user->loaddata ( 'getuserid',$userdata)->getall ();
+		$id = $idres [0] ['id'];}catch(Exception $e){echo "<Script>alert('用户名错误，请重新登陆');window.self.location='/index.php/user/login';</Script>";
+			return;};
 		$story = $this->loadmodel ( 'story' );
 		$out = $story->loaddata ( 'insertstory', array (
-				'upuid' => $id,
+				'upuid' => $userdata['id'],
 				'story' => $storytext 
 		) );
 		$this->echo = false;
 		// **************
-		$storyaddsuccesshtml = $this->loadview ( 'storyaddsuccess.html' );
-		$headhtml = $this->loadview ( 'head.html' );
+		$storyaddsuccesshtml = $this->loadview ( 'storyaddsuccess.html',$userdata );
+		$headhtml = $this->loadview ( 'head.html' ,$userdata);
 		$foothtml = $this->loadview ( 'foot.html' );
 		$this->echo = true;
 		$this->loadview ( 'home.html', array (

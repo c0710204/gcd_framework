@@ -1,8 +1,11 @@
 
 <div id="head">
 	<img alt="<br>" src="/img/logo.png" id='head-logo' class='hleft logo'>
-	<a class='hleft' id='userlogin' class='$hidden'href='/index.php/user/login'>注册/登陆</a> <a class='hleft'>排行</a> <a><img alt=""
-		src="" id='head-fdz' class='hleft button'></a> <a class='hleft button' href='/index.php/story/add'>投稿</a><a
+	<a class='hleft $hidden' id='userlogin' href='/index.php/user/login'>注册/登陆</a>
+	<a class='hleft unfix$hidden' id='userlogout' href='/index.php/user/logout?token=$token'>登出</a>
+	<a class='hleft'>排行</a> <a><img alt="" src="" id='head-fdz'
+		class='hleft button'></a> <a class='hleft button'
+		href='/index.php/story/add?token=$token'>投稿</a><a
 		class='hright button'>点我去推理篇</a> <span class='hright'>$name</span>
 </div>
 <div id='headfix'></div>

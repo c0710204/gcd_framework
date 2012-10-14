@@ -155,3 +155,124 @@
 2012-10-14 11:22:50|884567|sql-QUERY|select count(*) as success from gcd.user where name='a' and password='1111'||
 2012-10-14 11:22:50|889247|sql-QUERY|UPDATE `gcd`.`user` SET `token`='cd1c2b10c7cfd5d7d386ee38f95c04e8' WHERE `name`='a'||
 2012-10-14 11:22:52|358490|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 14:59:33|199245|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 14:59:40|79332|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:05:05|322764|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:06:46|910954|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:08:11|507355|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:08:35|154095|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:08:41|282109|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:09:23|591269|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:10:35|395598|sql-QUERY|select count(*) as success from gcd.user where name='a' and password='1111'||
+2012-10-14 15:10:35|399866|sql-QUERY|UPDATE `gcd`.`user` SET `token`='c03458d7bdb44cfb4da7c11e7d27ff9b' WHERE `name`='a'||
+2012-10-14 15:10:37|466702|sql-QUERY|'select * form gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'||
+2012-10-14 15:10:37|467007|SQL-ERROR|YSQL Select Fail ,Code=Resource id #211064,string=Resource id #21You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''select * form gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'' at line 1||
+2012-10-14 15:10:37|473013|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:11:51|532297|sql-QUERY|'select * form gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'||
+2012-10-14 15:11:51|532541|SQL-ERROR|YSQL Select Fail ,Code=Resource id #211064,string=Resource id #21You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''select * form gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'' at line 1||
+2012-10-14 15:11:51|538194|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:14:21|962054|sql-QUERY|select * form gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b||
+2012-10-14 15:14:21|962295|SQL-ERROR|YSQL Select Fail ,Code=Resource id #211064,string=Resource id #21You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'form gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b' at line 1||
+2012-10-14 15:14:21|976249|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:14:24|415656|sql-QUERY|select * form gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b||
+2012-10-14 15:14:24|415951|SQL-ERROR|YSQL Select Fail ,Code=Resource id #211064,string=Resource id #21You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'form gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b' at line 1||
+2012-10-14 15:14:24|420616|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:14:30|32947|sql-QUERY|select * form gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b||
+2012-10-14 15:14:30|33185|SQL-ERROR|YSQL Select Fail ,Code=Resource id #211064,string=Resource id #21You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'form gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b' at line 1||
+2012-10-14 15:14:30|38715|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:15:00|413188|sql-QUERY|select * form gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'||
+2012-10-14 15:15:00|413424|SQL-ERROR|YSQL Select Fail ,Code=Resource id #211064,string=Resource id #21You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'form gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'' at line 1||
+2012-10-14 15:15:00|417963|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:15:34|818223|sql-QUERY|select * from gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'||
+2012-10-14 15:15:34|832056|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:16:16|438236|sql-QUERY|select * from gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'||
+2012-10-14 15:16:16|453354|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:22:19|724529|sql-QUERY|select * from gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'||
+2012-10-14 15:22:33|445706|sql-QUERY|select id from gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b' limit 1||
+2012-10-14 15:22:33|459709|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '12345678', '1', '0', '0')||
+2012-10-14 15:24:21|220976|sql-QUERY|select * from gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'||
+2012-10-14 15:24:21|234724|sql-QUERY|select id from gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b' limit 1||
+2012-10-14 15:24:21|249076|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '12345678', '1', '0', '0')||
+2012-10-14 15:24:47|980556|sql-QUERY|select * from gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'||
+2012-10-14 15:24:47|994469|sql-QUERY|select id from gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b' limit 1||
+2012-10-14 15:24:47|999549|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '12345678', '1', '0', '0')||
+2012-10-14 15:24:50|306404|sql-QUERY|select * from gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'||
+2012-10-14 15:24:50|321612|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:25:28|167555|sql-QUERY|select * from gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'||
+2012-10-14 15:25:28|172534|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:26:04|852262|sql-QUERY|select * from gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'||
+2012-10-14 15:26:04|856665|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:26:39|796619|sql-QUERY|select * from gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'||
+2012-10-14 15:26:39|810587|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:28:40|121211|sql-QUERY|select * from gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'||
+2012-10-14 15:28:40|126915|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:29:13|321795|sql-QUERY|select * from gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'||
+2012-10-14 15:29:13|326462|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:29:17|774204|sql-QUERY|UPDATE `gcd`.`storys` SET `like`=`like`+1 WHERE `id`='3';||
+2012-10-14 15:32:00|995314|sql-QUERY|select * from gcd.user where token='c03458d7bdb44cfb4da7c11e7d27ff9b'||
+2012-10-14 15:32:01|11284|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:32:05|672578|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 15:32:13|476508|sql-QUERY|select count(*) as success from gcd.user where name='a' and password='1111'||
+2012-10-14 15:32:13|482053|sql-QUERY|UPDATE `gcd`.`user` SET `token`='28424976926d96b1813a707a5388cf52' WHERE `name`='a'||
+2012-10-14 15:32:15|116719|sql-QUERY|select * from gcd.user where token='28424976926d96b1813a707a5388cf52'||
+2012-10-14 15:32:15|123425|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 16:01:33|513674|sql-QUERY|select * from gcd.user where token='28424976926d96b1813a707a5388cf52'||
+2012-10-14 16:01:33|519662|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 16:02:38|619621|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 16:06:28|579718|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 16:49:32|107312|sql-QUERY| INSERT INTO `gcd`.`user` (`email`, `name`, `password`) VALUES ('12345', 'work1', '123456');||
+2012-10-14 17:03:37|225875|sql-QUERY| INSERT INTO `gcd`.`user` (`email`, `name`, `password`) VALUES ('1@2.3', 'qqqq', '1234567');||
+2012-10-14 17:08:46|73252|sql-QUERY| INSERT INTO `gcd`.`user` (`email`, `name`, `password`) VALUES ('1@2.3', 'c1111', '11111111111111');||
+2012-10-14 17:08:46|153321|SQL-ERROR|YSQL Select Fail ,Code=Resource id #211062,string=Resource id #21Duplicate entry '1@2.3' for key 'email_UNIQUE'||
+2012-10-14 17:09:30|937623|sql-QUERY|select count(*) as success from gcd.user where name='qqqq' and password='1234567'||
+2012-10-14 17:09:30|942876|sql-QUERY|UPDATE `gcd`.`user` SET `token`='4f7d1e9443873c59175c4af5036b344c' WHERE `name`='qqqq'||
+2012-10-14 17:09:32|274848|sql-QUERY|select * from gcd.user where token='4f7d1e9443873c59175c4af5036b344c'||
+2012-10-14 17:09:32|279397|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 17:10:21|749387|sql-QUERY|select * from gcd.user where token='4f7d1e9443873c59175c4af5036b344c'||
+2012-10-14 17:10:21|754106|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 17:10:27|491138|sql-QUERY|select * from gcd.user where token='4f7d1e9443873c59175c4af5036b344c'||
+2012-10-14 17:26:02|515350|sql-QUERY|select * from gcd.user where token='4f7d1e9443873c59175c4af5036b344c'||
+2012-10-14 17:26:02|521643|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 17:26:20|589201|sql-QUERY|select * from gcd.user where token='4f7d1e9443873c59175c4af5036b344c'||
+2012-10-14 17:26:20|593816|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 17:26:48|557599|sql-QUERY|select * from gcd.user where token='4f7d1e9443873c59175c4af5036b344c'||
+2012-10-14 17:26:48|562219|sql-QUERY|UPDATE `gcd`.`user` SET `token`='0' WHERE `token`='4f7d1e9443873c59175c4af5036b344c'||
+2012-10-14 17:26:57|293800|sql-QUERY|select * from gcd.user where token='4f7d1e9443873c59175c4af5036b344c'||
+2012-10-14 17:26:57|298971|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 17:28:09|880852|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 17:28:41|931130|sql-QUERY|select count(*) as success from gcd.user where email='1@2.3' and password='123456'||
+2012-10-14 17:28:59|838963|sql-QUERY|select count(*) as success from gcd.user where email='1@1.1' and password='1111'||
+2012-10-14 17:28:59|843887|sql-QUERY|UPDATE `gcd`.`user` SET `token`='15025718f3e5c1499e0185181f12ec57' WHERE `name`=''||
+2012-10-14 17:31:48|339311|sql-QUERY|select count(*) as success from gcd.user where email='1@1.1' and password='1111'||
+2012-10-14 17:31:48|353262|sql-QUERY|UPDATE `gcd`.`user` SET `token`='73086c2cbb394e961de2fe906823b064' WHERE `email`='1@1.1'||
+2012-10-14 17:31:50|159363|sql-QUERY|select * from gcd.user where token='73086c2cbb394e961de2fe906823b064'||
+2012-10-14 17:31:50|164905|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 17:31:52|974917|sql-QUERY|select * from gcd.user where token='73086c2cbb394e961de2fe906823b064'||
+2012-10-14 17:31:52|989015|sql-QUERY|UPDATE `gcd`.`user` SET `token`='0' WHERE `token`='73086c2cbb394e961de2fe906823b064'||
+2012-10-14 17:33:06|407916|sql-QUERY|select * from gcd.user where token='73086c2cbb394e961de2fe906823b064'||
+2012-10-14 17:33:06|414781|sql-QUERY|UPDATE `gcd`.`user` SET `token`='0' WHERE `token`=''||
+2012-10-14 17:36:13|507867|sql-QUERY|select * from gcd.user where token='73086c2cbb394e961de2fe906823b064'||
+2012-10-14 17:36:13|521787|sql-QUERY|UPDATE `gcd`.`user` SET `token`='0' WHERE `token`='anonymous'||
+2012-10-14 17:36:15|772778|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 17:36:33|138498|sql-QUERY|select * from gcd.user where token='anonymous'||
+2012-10-14 17:36:35|673131|sql-QUERY|select * from gcd.user where token='anonymous'||
+2012-10-14 17:36:35|677839|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 17:36:35|682557|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '111', '2', '0', '0')||
+2012-10-14 17:40:38|85635|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 17:40:45|388613|sql-QUERY|select count(*) as success from gcd.user where email='1@1.1' and password='1111'||
+2012-10-14 17:40:45|402597|sql-QUERY|UPDATE `gcd`.`user` SET `token`='8fc705d4ab4d5e207186f652a2eb8997' WHERE `email`='1@1.1'||
+2012-10-14 17:40:46|993626|sql-QUERY|select * from gcd.user where token='8fc705d4ab4d5e207186f652a2eb8997'||
+2012-10-14 17:40:46|998433|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 17:40:48|358766|sql-QUERY|select * from gcd.user where token='8fc705d4ab4d5e207186f652a2eb8997'||
+2012-10-14 17:40:50|649325|sql-QUERY|select * from gcd.user where token='8fc705d4ab4d5e207186f652a2eb8997'||
+2012-10-14 17:40:50|663312|sql-QUERY|select id from gcd.user where token='8fc705d4ab4d5e207186f652a2eb8997' limit 1||
+2012-10-14 17:40:50|667449|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '11111111111111', '1', '0', '0')||
+2012-10-14 17:40:55|296|sql-QUERY|select * from gcd.user where token='8fc705d4ab4d5e207186f652a2eb8997'||
+2012-10-14 17:40:55|14466|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 17:40:58|746739|sql-QUERY|select * from gcd.user where token='8fc705d4ab4d5e207186f652a2eb8997'||
+2012-10-14 17:40:58|750737|sql-QUERY|UPDATE `gcd`.`user` SET `token`='0' WHERE `token`='8fc705d4ab4d5e207186f652a2eb8997' and `email`='1@1.1'||
+2012-10-14 17:41:00|708967|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 17:41:13|112082|sql-QUERY|select * from gcd.user where token='8fc705d4ab4d5e207186f652a2eb8997'||
+2012-10-14 17:41:13|117844|sql-QUERY|UPDATE `gcd`.`user` SET `token`='0' WHERE `token`='anonymous' and `email`=''||
+2012-10-14 17:43:14|318231|sql-QUERY|select * from gcd.user where token='8fc705d4ab4d5e207186f652a2eb8997'||
+2012-10-14 17:43:15|778470|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||

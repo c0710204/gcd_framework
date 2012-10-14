@@ -106,7 +106,9 @@
 #list {
 	list-style: none;
 }
-
+.hidden , .unfix{
+	display:none;
+}
 .listcell {
 	margin: 4px;
 	width: 500px;

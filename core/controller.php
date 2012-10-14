@@ -8,6 +8,23 @@ class controller {
 	}
 	function main() {
 	}
+	function userwork() {
+		global $cfg;
+		if (isset ( $_GET ['token'] )) {
+			try {
+				$userdata = $this->loadmodel ( 'user' )->loaddata ( 'getuserdata', array (
+						'token' => $_GET ['token'] 
+				) )->getall ();
+			} catch ( Exception $e ) {
+				$userdata = $cfg ['goust'];
+			}
+			if (!(isset($userdata [0])))return $cfg ['goust'];
+			$userdata = $userdata [0];
+			$userdata ['hidden'] = 'hidden';
+		} else
+			$userdata = $cfg ['goust'];
+		return $userdata;
+	}
 	function loadview($uri, $data = array()) {
 		if (file_exists ( $_SERVER ['DOCUMENT_ROOT'] . __CFG_document_place__ . "/includes/view/$uri" )) {
 			$htmldefult = file_get_contents ( $_SERVER ['DOCUMENT_ROOT'] . __CFG_document_place__ . "/includes/view/$uri" );
@@ -89,7 +106,7 @@ class controller {
 	function loadmodel($uri) {
 		if (file_exists ( $_SERVER ['DOCUMENT_ROOT'] . __CFG_document_place__ . "/includes/model/$uri.php" )) {
 			include_once $_SERVER ['DOCUMENT_ROOT'] . __CFG_document_place__ . "/includes/model/$uri.php";
-			$uri='M'.$uri;
+			$uri = 'M' . $uri;
 			return new $uri ();
 		} else {
 			echo "model $uri not exisit";
