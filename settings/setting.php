@@ -29,7 +29,7 @@ $cfg['nocache']['card']=1;
 $cfg['nocache']['news']=1;
 //$cfg['nocache']['classtime']=1;
 
-$cfg["default_class"]='con1';
+$cfg["default_class"]='story';
 
 //NEWS-trs
 //include $_SERVER['DOCUMENT_ROOT'].__CFG_document_place__."/settings/trs.php";

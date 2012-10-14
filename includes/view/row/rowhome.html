@@ -1,24 +1,58 @@
+<div id='story'>
+	<div class='col1'>
+		<!--loop storys start-->
 
 
-			<div id="content">
-				<ul id='list'>
-				<!--loop storys start-->
-					<li class='listcell'>
-						<div class='user'>
-							<img alt="" src="" class='headico'>
-							<span class='username'>$upuid</span><br>
-						</div>
-						<div class='text'>
-						$story
-						</div>
-						<div class='tools'>
-							<a class='like'><img alt="" src="" class='button'>$like</a>
-							<a class='dislike'><img alt="" src="" class='button'>-$unlike</a>
-							<a class='talk'>3</a>条评论
-						</div>
-						
-					</li>
-				<!--loop storys end-->
+
+		<div class="block untagged" id='qiushi_tag_$id'>
+
+			<div class="detail">
+				<a href="/article/$id" target="_blank"></a>
+			</div>
+
+			<div class="author">
+				<!-- <img
+				src="http://img.qiushibaike.com/system/avtnew/260/2601171/thumb/20120718095719.gif"
+				alt="aoBai" /> -->
+				<a href="/users/$upuid">$name</a>
+			</div>
+
+			<div class="content" title="$time">$story</div>
+
+			<div class="thumb"></div>
+
+			<div class="tags">
+				<span class="bti"></span>
+			</div>
+			<div id="qiushi_counts_$id" class="bar">
+				<ul>
+					<li id="vote-up-$id" class="up"><a
+						href="javascript:vote($id,1)" id="1-$id">$like</a></li>
+					<li id="vote-dn-$id" class="down"><a
+						href="javascript:vote($id,2)" id="2-$id">-$unlike</a></li>
+					<li class="comment"><a
+						href="/article/$id#qiushi_comments_$id" id="c-$id"
+						class="qiushi_comments">$talkcount</a></li>
+					<!-- 	<li class="share"><a href="#">分享</a></li>-->
 				</ul>
+
+				<div class="sharebox">
+					<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"
+						data="">
+						<!--
+<a herf="#" onClick="sharesina($id)">新浪微博</a>
+<a herf="#" onClick="shareqzone($id)">腾讯微博</a>
+-->
+						<a class="bds_tsina">新浪微博</a> <a class="bds_tqq">腾讯微博</a> <a
+							class="bds_qzone">QQ空间</a> <a class="bds_renren">人人网</a>
+						<div class="arrow"></div>
+					</div>
+				</div>
+			</div>
+
 		</div>
-			
+
+		<div class="shadow"></div>
+		<!--loop storys end-->
+	</div>
+</div>

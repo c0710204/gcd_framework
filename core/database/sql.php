@@ -25,7 +25,7 @@ class SQL implements Iterator {
 	public $dblink = 0;
 	public $row;
 	private $rowcount=0;
-	private $result;
+	private $result=-1;
 	static public $version = '1.2';
 	/**
 	 * 数据提取
@@ -33,18 +33,25 @@ class SQL implements Iterator {
 	 */
 
 	function fetch_assoc() {
-		return mysql_fetch_assoc($this -> result);
-	} 
+		
+		if (!(is_resource($this -> result))) return false;
+	 
+		else return mysql_fetch_assoc($this -> result);
+	}
 	function fetch_object() {
+		if (!(is_resource($this -> result))) return false;
 		return mysql_fetch_object($this -> result);
 	} 
 	function fetch_lengths() {
+		if (!(is_resource($this -> result))) return false;
 		return mysql_fetch_lengths($this -> result);
 	} 
 	function fetch_row() {
+		if (!(is_resource($this -> result))) return false;
 		return mysql_fetch_row($this -> result);
 	} 
 	function fetch_field() {
+		if (!(is_resource($this -> result))) return false;
 		return mysql_fetch_field($this -> result);
 	} 
 	/**
@@ -171,7 +178,7 @@ class SQL implements Iterator {
 				echo "<br/>MYSQL Select Fail ,Code=" . $err . ",string=$errstr<br/>";
 			} 
 			$l -> writelog("YSQL Select Fail ,Code=" . $err . ",string=$errstr", "SQL-ERROR");
-			return -10003;
+			$this -> result -10003;
 		} 
 		$this -> result = $q;
 		$this->rowcount=0;

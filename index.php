@@ -24,13 +24,13 @@
 	}
 	else
 	{
-		echo '404找不到指定页面';
+		echo '404找不到指定页面-class';
 	
 		exit(0);
 	}
 	if (!(isset($function))) $function=$maincontroller->default_function;
 	if (!(method_exists($maincontroller, $function))){
-		echo '404找不到指定页面';
+		echo '404找不到指定页面-'.$function;
 		exit(0);
 	}
 	include_once $_SERVER['DOCUMENT_ROOT'].__CFG_document_place__.'/core/log/logger.php';

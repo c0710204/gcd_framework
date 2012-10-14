@@ -1,96 +1,157 @@
-2012-10-12 23:34:38|210417|sql-QUERY|select * from storys order by time desc limit 0,50 ||
-2012-10-12 23:34:38|210666|SQL-ERROR|YSQL Select Fail ,Code=Resource id #211046,string=Resource id #21No database selected||
-2012-10-12 23:35:46|973781|sql-QUERY|select * from storys order by time desc limit 0,50 ||
-2012-10-12 23:35:46|974031|SQL-ERROR|YSQL Select Fail ,Code=Resource id #211046,string=Resource id #21No database selected||
-2012-10-12 23:36:36|431881|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:37:26|49175|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:38:40|465334|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:39:04|982098|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:39:15|981552|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:39:56|292976|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:41:11|608857|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:41:58|872465|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:42:30|586973|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:42:30|999265|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:42:31|184222|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:42:44|28800|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:42:55|588753|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:43:03|11314|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:43:06|284377|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:49:20|607731|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:51:12|670664|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:51:44|156922|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:51:54|866149|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:51:59|930925|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:52:29|940561|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:52:31|945112|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:52:36|232434|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-12 23:53:31|125514|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 10:10:23|501715|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 10:10:38|924834|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 10:11:19|595118|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 14:11:14|622109|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 14:20:21|934556|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 14:20:55|830702|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 14:20:55|854412|sql-QUERY|select * from gcd.talk order by time desc ||
-2012-10-13 14:22:41|949820|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 14:23:06|666008|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 14:23:06|689443|sql-QUERY|select * from gcd.talk order by time desc ||
-2012-10-13 14:24:28|97786|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 14:24:28|120883|sql-QUERY|select * from gcd.talk order by time desc ||
-2012-10-13 14:24:57|842973|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 14:24:57|864108|sql-QUERY|select * from gcd.talk order by time desc ||
-2012-10-13 14:26:09|105407|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 14:26:09|122997|sql-QUERY|select * from gcd.talk order by time desc ||
-2012-10-13 14:26:38|706002|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 14:26:38|735203|sql-QUERY|select * from gcd.talk order by time desc ||
-2012-10-13 14:27:35|899078|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 14:27:35|929582|sql-QUERY|select * from gcd.talk order by time desc ||
-2012-10-13 14:28:19|935266|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 14:28:19|957048|sql-QUERY|select * from gcd.talk order by time desc ||
-2012-10-13 14:30:25|76164|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 14:30:25|103539|sql-QUERY|select * from gcd.talk order by time desc ||
-2012-10-13 14:32:19|392683|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 14:32:25|35391|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 14:32:47|803785|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:01:35|972631|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:01:37|208505|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:11:53|851293|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:12:05|94268|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:12:12|932348|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:12:36|393296|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:13:04|488938|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:13:52|386464|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:13:56|840732|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:14:18|763055|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:20:02|542311|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:20:38|833292|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:22:01|517837|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:22:19|314023|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:22:46|93856|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:22:48|747252|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:23:31|839437|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:23:35|316620|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:24:13|83850|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:24:54|408863|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:24:58|514920|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:25:01|316428|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:27:52|355784|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:28:17|618080|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:28:49|228378|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:29:38|293017|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:29:48|782654|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:29:53|216927|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:30:19|341647|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:32:27|800711|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:33:00|547517|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:33:36|883627|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:34:19|980326|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:34:25|749650|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:35:03|296054|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:38:42|538205|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:39:55|368759|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:41:27|463281|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:42:47|681507|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:43:05|7138|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
-2012-10-13 15:43:36|911591|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
+2012-10-14 08:39:55|331594|sql-QUERY|select id from gcd.user where token='111111111111111111' limit 1||
+2012-10-14 08:40:56|350303|sql-QUERY|select id from gcd.user where token='0' limit 1||
+2012-10-14 08:48:21|809464|sql-QUERY|select id from gcd.user where token='0' limit 1||
+2012-10-14 08:48:46|596688|sql-QUERY|select id from gcd.user where token='0' limit 1||
+2012-10-14 08:55:29|107777|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
+2012-10-14 08:55:30|804151|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
+2012-10-14 08:56:02|486669|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 08:58:14|639649|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 08:58:14|652711|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 08:58:34|316784|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 08:58:34|321154|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 08:58:45|148530|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 08:58:45|161496|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 08:59:07|752876|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 08:59:07|757103|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:12:39|570466|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:12:39|637571|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:13:51|53177|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:13:51|57537|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '', '0', '0')||
+2012-10-14 09:13:51|57850|SQL-ERROR|YSQL Select Fail ,Code=Resource id #301366,string=Resource id #30Incorrect integer value: '' for column 'upuid' at row 1||
+2012-10-14 09:13:52|589251|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:13:52|612219|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '', '0', '0')||
+2012-10-14 09:13:52|612515|SQL-ERROR|YSQL Select Fail ,Code=Resource id #301366,string=Resource id #30Incorrect integer value: '' for column 'upuid' at row 1||
+2012-10-14 09:14:33|772629|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:14:33|787330|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:14:37|588463|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:14:37|593292|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:14:37|854600|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:14:37|859421|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:14:38|66910|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:14:38|72350|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:14:38|255978|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:14:38|260665|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:14:38|477848|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:14:38|484965|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:14:41|444103|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:14:41|449430|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:15:12|570445|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:15:12|576297|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:15:37|936719|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:15:37|942231|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:16:05|774376|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:16:05|780270|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '', '0', '0')||
+2012-10-14 09:16:05|780657|SQL-ERROR|YSQL Select Fail ,Code=Resource id #301366,string=Resource id #30Incorrect integer value: '' for column 'upuid' at row 1||
+2012-10-14 09:16:26|260006|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:16:26|265199|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '', '0', '0')||
+2012-10-14 09:16:26|265660|SQL-ERROR|YSQL Select Fail ,Code=Resource id #301366,string=Resource id #30Incorrect integer value: '' for column 'upuid' at row 1||
+2012-10-14 09:16:30|868653|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:16:30|882684|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '', '0', '0')||
+2012-10-14 09:16:30|883052|SQL-ERROR|YSQL Select Fail ,Code=Resource id #301366,string=Resource id #30Incorrect integer value: '' for column 'upuid' at row 1||
+2012-10-14 09:16:31|85531|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:16:31|99485|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '', '0', '0')||
+2012-10-14 09:16:31|99827|SQL-ERROR|YSQL Select Fail ,Code=Resource id #301366,string=Resource id #30Incorrect integer value: '' for column 'upuid' at row 1||
+2012-10-14 09:16:31|286289|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:16:31|301282|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '', '0', '0')||
+2012-10-14 09:16:31|301654|SQL-ERROR|YSQL Select Fail ,Code=Resource id #301366,string=Resource id #30Incorrect integer value: '' for column 'upuid' at row 1||
+2012-10-14 09:16:31|473305|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:16:31|487245|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '', '0', '0')||
+2012-10-14 09:16:31|487582|SQL-ERROR|YSQL Select Fail ,Code=Resource id #301366,string=Resource id #30Incorrect integer value: '' for column 'upuid' at row 1||
+2012-10-14 09:16:31|659478|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:16:31|664738|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '', '0', '0')||
+2012-10-14 09:16:31|665022|SQL-ERROR|YSQL Select Fail ,Code=Resource id #301366,string=Resource id #30Incorrect integer value: '' for column 'upuid' at row 1||
+2012-10-14 09:16:31|900569|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:16:31|915127|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '', '0', '0')||
+2012-10-14 09:16:31|915489|SQL-ERROR|YSQL Select Fail ,Code=Resource id #301366,string=Resource id #30Incorrect integer value: '' for column 'upuid' at row 1||
+2012-10-14 09:16:32|159590|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:16:32|176573|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '', '0', '0')||
+2012-10-14 09:16:32|176914|SQL-ERROR|YSQL Select Fail ,Code=Resource id #301366,string=Resource id #30Incorrect integer value: '' for column 'upuid' at row 1||
+2012-10-14 09:17:14|491746|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:17:14|497638|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:17:17|724542|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:17:17|738621|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:17:40|19909|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:17:40|25512|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:18:42|620665|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:18:42|634604|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:19:17|30485|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:19:17|37966|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:19:47|989509|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:19:47|995991|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:20:14|49444|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:20:14|54629|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:22:58|84469|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:22:58|91695|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:23:12|467238|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:23:12|471942|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:23:27|362762|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:23:27|367225|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:23:38|265811|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:23:38|279759|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:23:57|102840|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:23:57|108491|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:24:44|135627|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:24:44|140840|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '123456789', '2', '0', '0')||
+2012-10-14 09:32:30|368777|sql-QUERY|select * from gcd.storys order by time desc limit 0,50 ||
+2012-10-14 09:41:23|969356|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by time desc limit 0,50||
+2012-10-14 09:42:00|207982|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by time desc limit 0,50||
+2012-10-14 09:42:29|717765|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by time desc limit 0,50||
+2012-10-14 09:42:29|763676|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by time desc limit 0,50||
+2012-10-14 09:43:24|439775|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 09:43:27|274008|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 09:43:27|518045|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 09:43:27|864077|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 09:45:12|600574|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 09:46:01|782034|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 09:46:16|439515|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 09:46:33|373548|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:46:33|377869|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '111', '2', '0', '0')||
+2012-10-14 09:47:38|451401|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 09:48:23|290062|sql-QUERY|select id from gcd.user where token='anonymous' limit 1||
+2012-10-14 09:48:23|294924|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), 'story2', '2', '0', '0')||
+2012-10-14 09:48:26|36877|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 09:50:28|191191|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 10:02:04|111777|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 10:02:51|713128|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 10:02:53|88102|sql-QUERY|UPDATE `gcd`.`storys` SET `like`=`like`+1 WHERE `id`='32';||
+2012-10-14 10:02:55|606514|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 10:03:01|268523|sql-QUERY|UPDATE `gcd`.`storys` SET `unlike`=`unlike`+1 WHERE `id`='32';||
+2012-10-14 10:03:02|981784|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 10:07:35|662604|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 10:11:20|588921|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 10:11:22|113969|sql-QUERY|UPDATE `gcd`.`storys` SET `like`=`like`+1 WHERE `id`='32';||
+2012-10-14 10:11:33|742659|sql-QUERY|UPDATE `gcd`.`storys` SET `like`=`like`+1 WHERE `id`='32';||
+2012-10-14 10:11:43|134724|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 10:11:44|849669|sql-QUERY|UPDATE `gcd`.`storys` SET `like`=`like`+1 WHERE `id`='32';||
+2012-10-14 10:12:25|785017|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 10:12:27|375898|sql-QUERY|UPDATE `gcd`.`storys` SET `like`=`like`+1 WHERE `id`='32';||
+2012-10-14 10:13:57|950112|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 10:13:59|385790|sql-QUERY|UPDATE `gcd`.`storys` SET `like`=`like`+1 WHERE `id`='32';||
+2012-10-14 10:14:20|807993|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 10:14:22|231914|sql-QUERY|UPDATE `gcd`.`storys` SET `like`=`like`+1 WHERE `id`='32';||
+2012-10-14 10:15:10|468845|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 10:15:11|851617|sql-QUERY|UPDATE `gcd`.`storys` SET `unlike`=`unlike`+1 WHERE `id`='32';||
+2012-10-14 10:15:14|11427|sql-QUERY|UPDATE `gcd`.`storys` SET `like`=`like`+1 WHERE `id`='32';||
+2012-10-14 10:15:21|550015|sql-QUERY|UPDATE `gcd`.`storys` SET `like`=`like`+1 WHERE `id`='32';||
+2012-10-14 10:16:21|782319|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 10:16:23|278307|sql-QUERY|UPDATE `gcd`.`storys` SET `like`=`like`+1 WHERE `id`='32';||
+2012-10-14 10:16:25|949555|sql-QUERY|UPDATE `gcd`.`storys` SET `unlike`=`unlike`+1 WHERE `id`='32';||
+2012-10-14 10:16:42|761697|sql-QUERY|UPDATE `gcd`.`storys` SET `like`=`like`+1 WHERE `id`='32';||
+2012-10-14 10:16:45|995769|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 10:16:47|517718|sql-QUERY|UPDATE `gcd`.`storys` SET `like`=`like`+1 WHERE `id`='32';||
+2012-10-14 10:16:49|478665|sql-QUERY|UPDATE `gcd`.`storys` SET `unlike`=`unlike`+1 WHERE `id`='32';||
+2012-10-14 10:16:53|82186|sql-QUERY|UPDATE `gcd`.`storys` SET `unlike`=`unlike`+1 WHERE `id`='30';||
+2012-10-14 10:17:22|573723|sql-QUERY|UPDATE `gcd`.`storys` SET `like`=`like`+1 WHERE `id`='29';||
+2012-10-14 11:18:54|796934|sql-QUERY|select count(*) as success from gcd.user where name='' and password=''||
+2012-10-14 11:18:54|803651|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '', '', '0', '0')||
+2012-10-14 11:18:54|803994|SQL-ERROR|YSQL Select Fail ,Code=Resource id #301366,string=Resource id #30Incorrect integer value: '' for column 'upuid' at row 1||
+2012-10-14 11:19:21|881295|sql-QUERY|select count(*) as success from gcd.user where name='' and password='1111'||
+2012-10-14 11:19:21|887443|sql-QUERY|inSERT INTO `gcd`.`storys` (`time`, `story`, `upuid`, `like`, `unlike`) VALUES (now(), '', '', '0', '0')||
+2012-10-14 11:19:21|887744|SQL-ERROR|YSQL Select Fail ,Code=Resource id #301366,string=Resource id #30Incorrect integer value: '' for column 'upuid' at row 1||
+2012-10-14 11:21:53|548779|sql-QUERY|select count(*) as success from gcd.user where name='a' and password='1111'||
+2012-10-14 11:21:53|553574|sql-QUERY|UPDATE `gcd`.`user` SET `token`='06eef093faddf06ce176305443203b34' WHERE `name`='a'||
+2012-10-14 11:21:55|139022|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 11:22:46|211063|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||
+2012-10-14 11:22:50|884567|sql-QUERY|select count(*) as success from gcd.user where name='a' and password='1111'||
+2012-10-14 11:22:50|889247|sql-QUERY|UPDATE `gcd`.`user` SET `token`='cd1c2b10c7cfd5d7d386ee38f95c04e8' WHERE `name`='a'||
+2012-10-14 11:22:52|358490|sql-QUERY|select gcd.storys.*,gcd.user.`name` from gcd.storys,gcd.user where gcd.user.id=gcd.storys.upuid order by gcd.storys.time desc limit 0,50||

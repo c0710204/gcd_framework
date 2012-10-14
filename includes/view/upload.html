@@ -1,0 +1,35 @@
+<form action="/add" id="new_article" method="post">
+<input type="hidden" id="article_group_id" name="article[group_id]" value="2">
+<textarea onpropertychange="if(this.scrollHeight&gt;180){this.style.height=this.scrollHeight+'px';}" oninput="if(this.scrollHeight&gt;180){this.style.height=this.scrollHeight+'px';}checkContentLength();" id="qiushi_text" class="original" name="article[content]" placeholder="分享我的真实糗事" required>分享我的真实糗事</textarea>
+<div id="length"></div>
+
+<div class="tagbox">
+<label>邮箱: </label>
+<input type="text" id="article_email" name="article[email]" size="30">
+<span>(留下您的邮箱，糗事通过时就可以得到通知)</span>
+</div>
+
+<div class="picbox">
+<label>真相:</label>
+<input type="file" id="article_picture" name="article[picture]">
+</div>
+<div class="tagbox">
+<label>标签：</label>
+<input type="text" size="30" name="article[tag_line]" maxlength="30" id="qiushi_rtags">
+<span>（最多3个标签，用空格分隔）</span>
+</div>
+<div class="optionbox">
+<label>选项:</label>
+<input type="hidden" name="article[comment_status]" value="open">
+<input type="checkbox" id="article_comment_status" name="article[comment_status]" value="closed">
+禁止评论
+<span  style="display:none;" >
+<input type="hidden" name="article[anonymous]" value="0">
+<input type="checkbox" checked="checked" id="article_anonymous" name="article[anonymous]" value="1">
+匿名投稿
+</span>
+<input type="checkbox" checked="checked">
+我已阅读并同意 <a href="#cp1">投稿须知</a></div>
+<div class="buttonbox">
+<input type="submit" class="submit" id="article_submit" name="commit" onClick="if (window.hiddenCommit) { window.hiddenCommit.setAttribute('value', this.value); }else { hiddenCommit = document.createElement('input');hiddenCommit.type = 'hidden';hiddenCommit.value = this.value;hiddenCommit.name = this.name;this.form.appendChild(hiddenCommit); }this.setAttribute('originalValue', this.value);this.disabled = true;this.value='正在发表…';result = (this.form.onsubmit ? (this.form.onsubmit() ? this.form.submit() : false) : this.form.submit());if (result == false) { this.value = this.getAttribute('originalValue');this.disabled = false; }return result;" title="Ctrl + Enter可以快捷投递" value="投递">
+</div>

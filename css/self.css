@@ -1,0 +1,147 @@
+#head .hleft {
+	float: left;
+}
+
+#head span.hright {
+	margin: 5px;
+	color: white;
+}
+
+#head a.hleft {
+	margin: 5px;
+	color: #ffff33;
+}
+
+#head a.hleft.button {
+	margin: 5px;
+	color: #0000cc;
+}
+
+#head .hright {
+	float: right;
+}
+
+#head a.button {
+	margin: 4px;
+	margin-right: 30px;
+	border-color: white;
+	border-style: double;
+	font-size: 15px;
+	background-color: white;
+}
+
+#head img.button {
+	margin: 5px;
+	border-color: white;
+	width: 15px;
+	height: 15px;
+	border-style: double;
+}
+
+#head img.logo {
+	margin: -5px;
+}
+
+#mainheadfix {
+	height: 20px;
+}
+
+#maincontral {
+	
+}
+
+#head {
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-image: url("/img/nav_bg_n.png");
+	background-repeat: repeat-x;
+}
+
+#headfix {
+	height: 10px;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+#main {
+	width: 1005px;
+}
+
+#left {
+	background-color: #000033;
+}
+
+#left,#content {
+	float: left;
+}
+
+#right {
+	float: right;
+	width: 200px;
+}
+
+#main #contral {
+	width: 640px;
+	float: left;
+}
+
+#foot {
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+
+。listcell .user * {
+	float: left;
+}
+
+。listcell .tools * {
+	float: left;
+}
+
+#list {
+	list-style: none;
+}
+
+.listcell {
+	margin: 4px;
+	width: 500px;
+	border-color: black;
+	border-style: double;
+	font-size: 15px;
+	background-color: white;
+}
+
+.listcell .tools .button {
+	margin: 4px;
+	width: 10px;
+	height: 10px;
+	border-color: black;
+	border-style: double;
+	font-size: 15px;
+	background-color: white;
+}
+
+.col1 {
+	background-color: #000033;
+}
+
+body {
+	background-color: #000033;
+}
+
+form {
+	color: #ffffcc;
+}
+
+#inputstory {
+	width: 600px;
+}
+
+#inputstudy textarea {
+	min-width: 400px;
+}
